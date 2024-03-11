@@ -1,0 +1,48 @@
+body {
+  background: #fffafa;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  text-align: center;
+  font-size: x-large;
+  max-width: 350px;
+  background: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgb(156, 156, 156);
+  margin: auto;
+  margin-top: 100px;
+}
+h2 {
+  color: #fc490d;
+  margin: 30px;
+  text-shadow: 5px 5px 15px  #ff4a13bd;
+}
+#temperature {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  font-size: large;
+  border-radius: 7px;
+  border: 2px solid black;
+}
+button {
+  margin-top: 20px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  background: #2c2c2c;
+}
+button:hover {
+  background: #fc490d;
+}
+#result {
+  font-weight: bold;
+  text-align: center;
+}
